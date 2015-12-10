@@ -9,12 +9,17 @@ void setup()
     Tree tree = new Tree();
     tree.moveTo(300, 300);
     
+    Sleigh sleigh = new Sleigh();
+    sleigh.moveTo(500, 500);
+    
     screenItems.add(tree);
+    screenItems.add(sleigh);
+    
 }
 
 void draw() 
 {
-    scale(0.25);
     translate(300, 300);
-    screenItems.get(0).draw();
+    scale(0.25);
+    screenItems.get(1).draw();
 }
