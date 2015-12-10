@@ -13,5 +13,6 @@ void setup()
 
 void draw() 
 {
+    scale(0.25);
     screenItems.get(0).draw();
 }
