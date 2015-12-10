@@ -15,8 +15,10 @@ public abstract class Animated
     //draws the shape 
     public final void draw()
     {
-        
+        pushMatrix();
+        translate(_x, _y);
         drawAtOrigin();
+        popMatrix();
     }
     
     //draw centred on 0, 0
