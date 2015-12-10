@@ -13,9 +13,10 @@ public abstract class Animated
     }
     
     //draws the shape 
-    public final void Draw()
+    public final void draw()
     {
         
+        drawAtOrigin();
     }
     
     //draw centred on 0, 0
