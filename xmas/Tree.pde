@@ -2,7 +2,10 @@ class Tree extends Animated
 {
     protected void drawAtOrigin()
     {
-        triangle(0, 0, 80, 80, 40, 0);
+        fill(0, 225, 0);
+        triangle(0, -250, 300, -1300, 600, -250);
+        fill(102, 51, 0);
+        rect(200, 0, 180, -250);
     }
     protected float getHeight()
     {
