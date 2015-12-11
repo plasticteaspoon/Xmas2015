@@ -1,6 +1,6 @@
-class Sleigh extends Animated
+class SleighCostume implements IDrawable
 {
-        protected void drawAtOrigin()
+     public void drawAtOrigin()
     {
         //the back
         rect(0, -650, 425, 650);
@@ -12,11 +12,11 @@ class Sleigh extends Animated
         arc(1000, -275, 550, 550, PI + HALF_PI, 2*PI + HALF_PI, CHORD);
         //ellipse(1000, -275, 550, 550);
     }
-    protected float getHeight()
+    public float getHeight()
     {
         return 0;
     }    
-    protected float getWidth()
+    public float getWidth()
     {
         return 0;
     }

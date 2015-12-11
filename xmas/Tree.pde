@@ -1,6 +1,6 @@
-class Tree extends Animated
+class TreeCostume implements IDrawable
 {
-    protected void drawAtOrigin()
+    public void drawAtOrigin()
     {
         //the foliage
         fill(0, 225, 0);
@@ -9,11 +9,11 @@ class Tree extends Animated
         fill(102, 51, 0);
         rect(200, 0, 180, -250);
     }
-    protected float getHeight()
+    public float getHeight()
     {
         return 0;
     }    
-    protected float getWidth()
+    public float getWidth()
     {
         return 0;
     }
