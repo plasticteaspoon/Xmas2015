@@ -2,6 +2,8 @@ class SleighCostume implements IDrawable
 {
      public void drawAtOrigin()
     {
+        fill(225, 0, 0);
+        stroke(225, 0, 0);
         //the back
         rect(0, -650, 425, 650);
         //the seat
