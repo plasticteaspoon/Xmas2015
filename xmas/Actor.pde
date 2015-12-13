@@ -12,8 +12,9 @@ public class Actor
     }
     
     //go onto the stage
-    public void enterStage()
+    public void enterStage(PVector position)
     {
+        _position = position;
         _visible = true;
     }
     
